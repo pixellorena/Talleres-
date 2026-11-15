@@ -1,0 +1,144 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+10
+inventario
+1
+0
+6
+opcion
+1
+0
+9
+1
+11
+opcion != 4
+11
+4
+1
+32
+"===== MENU DE INVENTARIO ====="
+4
+1
+23
+"1. Agregar productos" 
+4
+1
+25
+"2. Consultar inventario"
+4
+1
+22
+"3. Retirar productos"
+4
+1
+10
+"4. Salir"
+4
+1
+24
+"Seleccione una opcion:"
+7
+0
+1
+9
+opcion =1
+7
+0
+1
+10
+opcion = 2
+7
+0
+1
+9
+opcion= 3
+7
+0
+1
+9
+opcion =4
+4
+1
+18
+"opcion no valida"
+13
+4
+1
+22
+"saliendo del sistema"
+13
+13
+4
+1
+32
+"cuantas unidades desea retirar"
+5
+1
+8
+cantidad
+7
+0
+1
+38
+cantidad >0 and cantidad <= inventario
+4
+1
+44
+"cantidad no valida inventario insuficiente"
+13
+6
+1
+10
+inventario
+19
+inventario-cantidad
+4
+1
+35
+"prodcutos retirados correctamente"
+13
+13
+13
+4
+1
+35
+"unidades disponibles:", inventario
+13
+13
+4
+1
+33
+"Cuantas unidades desea agregar?"
+5
+1
+8
+cantidad
+7
+0
+1
+11
+cantidad >0
+4
+1
+21
+"Cantidad no valida."
+13
+6
+1
+10
+inventario
+21
+cantidad + inventario
+4
+1
+36
+"Productos agregados correctamente."
+13
+13
+1
